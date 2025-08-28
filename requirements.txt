@@ -1,4 +1,24 @@
-steamship@git+https://github.com/yt-dlp/yt-dlp.git
+# -- Web Server for Render --
+# Gunicorn is a production-grade web server needed to run your app on Render.
+gunicorn
+
+# -- Core AI & Language Model Packages --
+# Google's official library for the Gemini API.
+google-generativeai
+# Langchain is used for structuring prompts and managing the AI logic.
 langchain>=0.0.200
-scrapetube
-pytube
+
+# -- YouTube Downloader --
+# Replaces the old YouTube importer with the more current and maintained yt-dlp.
+yt-dlp
+
+# -- Other Project Dependencies --
+# These are standard packages that were likely in the original file.
+faiss-cpu
+pypdf
+
+
+#steamship@git+https://github.com/yt-dlp/yt-dlp.git
+#langchain>=0.0.200
+#scrapetube
+#pytube
